@@ -1,10 +1,6 @@
 import React from 'react';
 
-const Naveber = () => {
-    return (
-        <div>
-            <h3>This is a nave ber page.</h3>
-            import React from 'react';
+
 import { FaRegChartBar } from 'react-icons/fa';
 import { IoAddOutline, IoTimeOutline } from 'react-icons/io5';
 import { TiHomeOutline } from 'react-icons/ti';
@@ -50,21 +46,8 @@ const Naveber = () => {
             </div>
 
 
-            <div className='container mx-auto mt-20'>
-                <div className='text-center'>
-                <h3 className='font-bold text-[48px]'>Friends to keep close in your life</h3>
-                <p className='text-[16px] text-[#64748B]'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />relationships that matter most.</p>
-                <button className='btn bg-[#1F5C4D] mt-6 text-[#FFFFFF]'><IoAddOutline />Add a Friend</button></div>
+            
             </div>
-            
-        </div>
-    );
-};
-
-export default Naveber;
-            
-        </div>
-    );
-};
-
-export default Naveber;
+    )
+}
+export default Naveber 

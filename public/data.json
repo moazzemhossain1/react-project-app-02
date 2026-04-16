@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "Deepika Padukone",
+    "picture": "https://i.pravatar.cc/150?img=25",
+    "email": "deepika@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["bollywood", "fashion", "celebrity"],
+    "bio": "One of the highest-paid actresses in India.",
+    "goal": 10,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 2,
+    "name": "Alia Bhatt",
+    "picture": "https://i.pravatar.cc/150?img=26",
+    "email": "alia@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["bollywood", "young", "talented"],
+    "bio": "Popular for versatile acting roles.",
+    "goal": 7,
+    "next_due_date": "2025-07-27"
+  },
+  {
+    "id": 3,
+    "name": "Katrina Kaif",
+    "picture": "https://i.pravatar.cc/150?img=27",
+    "email": "katrina@example.com",
+    "days_since_contact": 12,
+    "status": "almost-due",
+    "tags": ["bollywood", "dance", "glamour"],
+    "bio": "Famous for dance and blockbuster films.",
+    "goal": 14,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 4,
+    "name": "Priyanka Chopra",
+    "picture": "https://i.pravatar.cc/150?img=28",
+    "email": "priyanka@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["bollywood", "hollywood", "global"],
+    "bio": "Global icon and actress.",
+    "goal": 15,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 5,
+    "name": "Shraddha Kapoor",
+    "picture": "https://i.pravatar.cc/150?img=29",
+    "email": "shraddha@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["bollywood", "music", "romantic"],
+    "bio": "Known for romantic and musical films.",
+    "goal": 9,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 6,
+    "name": "Kiara Advani",
+    "picture": "https://i.pravatar.cc/150?img=30",
+    "email": "kiara@example.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["bollywood", "modern", "popular"],
+    "bio": "Rising star with popular hits.",
+    "goal": 10,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 7,
+    "name": "Anushka Sharma",
+    "picture": "https://i.pravatar.cc/150?img=31",
+    "email": "anushka@example.com",
+    "days_since_contact": 14,
+    "status": "almost-due",
+    "tags": ["bollywood", "producer", "cricket"],
+    "bio": "Actress and film producer.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Kareena Kapoor",
+    "picture": "https://i.pravatar.cc/150?img=32",
+    "email": "kareena@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["bollywood", "veteran", "style"],
+    "bio": "Veteran actress with many hits.",
+    "goal": 15,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 9,
+    "name": "Rashmika Mandanna",
+    "picture": "https://i.pravatar.cc/150?img=33",
+    "email": "rashmika@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["south", "cute", "trending"],
+    "bio": "Popular South Indian actress.",
+    "goal": 10,
+    "next_due_date": "2025-07-26"
+  },
+    {
+    "id": 10,
+    "name": "Samantha Ruth Prabhu",
+    "picture": "https://i.pravatar.cc/150?img=34",
+    "email": "samantha@example.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["south"],
+    "bio": "Top actress in South Indian cinema.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  }
+
+ 
+ 
+
+]

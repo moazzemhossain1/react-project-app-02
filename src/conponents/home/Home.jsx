@@ -1,7 +1,11 @@
 import React from 'react';
 import { IoAddOutline } from 'react-icons/io5';
+import { useLoaderData } from 'react-router';
+import DataLoad from '../DataLoad';
 
 const Home = () => {
+    const datas=useLoaderData();
+    console.log(datas)
     return (
         <div>
             <div className='container mx-auto mt-20'>
@@ -29,8 +33,17 @@ const Home = () => {
                     <h4 className='text-[#64748B] text-[18px]'>Interactions This Month</h4>
                 </div>
 
-                
+
             </div>
+            <div className='container mx-auto mt-10'>
+                <h3 className='font-semibold text-[24px] text-black'>Your Frinds</h3>
+            </div>
+            <div className='container mx-auto  grid grid-cols-4 gap-4'>
+                {
+                    datas.map((data,index) => <DataLoad key={index} data={data}></DataLoad>)
+                }
+            </div>
+
             
         </div>
     );

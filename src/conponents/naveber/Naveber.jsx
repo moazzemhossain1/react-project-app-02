@@ -9,14 +9,24 @@ import { NavLink } from 'react-router';
 const Naveber = () => {
     const Links=<>
 
-    <NavLink to="/">
-        <button className='btn bg-[#1F5C4D]'><TiHomeOutline className='text-[#E5E7EB]' />Home</button>
-    </NavLink>
-    <NavLink to="timeline">
-        <button className='btn bg-[#E5E7EB] text-[#4B5563]' ><IoTimeOutline />Timeline</button>
+    <NavLink
+  to="/"
+  className={({ isActive }) =>
+    isActive
+      ? "btn bg-[#1F5C4D] text-white"
+      : "btn bg-[#E5E7EB] text-[#4B5563]"
+  }
+>
+  <TiHomeOutline /> Home
+</NavLink>
+    <NavLink to="timeline"  className={({isActive}) => 
+        isActive ? "btn  bg-[#1F5C4D] text-white"  
+        : "btn bg-[#E5E7EB] text-[#4B5563]"} >
+        <IoTimeOutline />Timeline
     </NavLink> 
-    <NavLink to="stas"> 
-        <button className='btn bg-[#E5E7EB] text-[#4B5563]'><FaRegChartBar />Stats</button>
+    <NavLink to="stas" className={({isActive}) =>
+    isActive ? "btn  bg-[#1F5C4D] text-white" : "btn bg-[#E5E7EB] text-[#4B5563]"}> 
+        <FaRegChartBar />Stats
     </NavLink>
     </>
     return (
